@@ -1,0 +1,215 @@
+{
+  "uid" : "327eccc644966daf",
+  "name" : "should login user successfully",
+  "fullName" : "should login user successfully",
+  "historyId" : "chromium tests/login.spec.js login feature should login user successfully",
+  "time" : {
+    "start" : 1638453076832,
+    "stop" : 1638453082010,
+    "duration" : 5178
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - \n",
+  "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - \n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:16:85\n    at runNextTicks (node:internal/process/task_queues:61:5)\n    at processImmediate (node:internal/timers:437:9)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - \n",
+    "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - \n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:16:85\n    at runNextTicks (node:internal/process/task_queues:61:5)\n    at processImmediate (node:internal/timers:437:9)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638453076832,
+        "stop" : 1638453078107,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638453077442,
+          "stop" : 1638453078107,
+          "duration" : 665
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://stage.lokalise.com/)",
+      "time" : {
+        "start" : 1638453078109,
+        "stop" : 1638453079568,
+        "duration" : 1459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[placeholder=\"user@company.com\"])",
+      "time" : {
+        "start" : 1638453079568,
+        "stop" : 1638453079765,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[type=\"password\"])",
+      "time" : {
+        "start" : 1638453079765,
+        "stop" : 1638453079811,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(button:has-text(\"Log in\"))",
+      "time" : {
+        "start" : 1638453079811,
+        "stop" : 1638453079889,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638453079891,
+        "stop" : 1638453081878,
+        "duration" : 1987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638453081832,
+        "stop" : 1638453082010,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638453081833,
+          "stop" : 1638453082007,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expect.toBeVisible",
+        "time" : {
+          "start" : 1638453081879,
+          "stop" : 1638453081881,
+          "duration" : 2
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1f03e779b8ce4288",
+      "name" : "video",
+      "source" : "1f03e779b8ce4288.webm",
+      "type" : "video/webm",
+      "size" : 75012
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/login.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "327eccc644966daf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,215 @@
+{
+  "uid" : "31348ccd74d43c7a",
+  "name" : "should login user successfully",
+  "fullName" : "should login user successfully",
+  "historyId" : "chromium tests/login.spec.js login feature should login user successfully",
+  "time" : {
+    "start" : 1638453297011,
+    "stop" : 1638453302357,
+    "duration" : 5346
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"[data-name=\"project-sidebar\"] :has-text(\"Sample project\")\"\n",
+  "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"[data-name=\"project-sidebar\"] :has-text(\"Sample project\")\"\n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:16:93\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"[data-name=\"project-sidebar\"] :has-text(\"Sample project\")\"\n",
+    "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"[data-name=\"project-sidebar\"] :has-text(\"Sample project\")\"\n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:16:93\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638453297012,
+        "stop" : 1638453298322,
+        "duration" : 1310
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638453297576,
+          "stop" : 1638453298322,
+          "duration" : 746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://stage.lokalise.com/)",
+      "time" : {
+        "start" : 1638453298323,
+        "stop" : 1638453299942,
+        "duration" : 1619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[placeholder=\"user@company.com\"])",
+      "time" : {
+        "start" : 1638453299943,
+        "stop" : 1638453299987,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[type=\"password\"])",
+      "time" : {
+        "start" : 1638453299988,
+        "stop" : 1638453300010,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(button:has-text(\"Log in\"))",
+      "time" : {
+        "start" : 1638453300010,
+        "stop" : 1638453300081,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638453300083,
+        "stop" : 1638453302171,
+        "duration" : 2088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638453302010,
+        "stop" : 1638453302357,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638453302012,
+          "stop" : 1638453302355,
+          "duration" : 343
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expect.toBeVisible",
+        "time" : {
+          "start" : 1638453302171,
+          "stop" : 1638453302173,
+          "duration" : 2
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d77ddb37b8b8168f",
+      "name" : "video",
+      "source" : "d77ddb37b8b8168f.webm",
+      "type" : "video/webm",
+      "size" : 77730
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/login.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31348ccd74d43c7a.json",
+  "parameterValues" : [ ]
+}

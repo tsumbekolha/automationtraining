@@ -1,0 +1,205 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "webkit",
+    "children" : [ {
+      "name" : "tests/example.spec.js",
+      "children" : [ {
+        "name" : "my test",
+        "uid" : "4b46032ce1c910a3",
+        "parentUid" : "b061a07e2b9c79182f751542d91d0159",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637751239162,
+          "stop" : 1637751244774,
+          "duration" : 5612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "feature foo",
+        "children" : [ {
+          "name" : "my test",
+          "uid" : "8b3fc392329fd1da",
+          "parentUid" : "a916044adaa9ce666cf7c2993a575905",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449632650,
+            "stop" : 1638449635152,
+            "duration" : 2502
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test2",
+          "uid" : "507825bed68e42e3",
+          "parentUid" : "a916044adaa9ce666cf7c2993a575905",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449635152,
+            "stop" : 1638449636473,
+            "duration" : 1321
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test3",
+          "uid" : "32a3330a2b69a8e4",
+          "parentUid" : "a916044adaa9ce666cf7c2993a575905",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449636473,
+            "stop" : 1638449637257,
+            "duration" : 784
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a916044adaa9ce666cf7c2993a575905"
+      } ],
+      "uid" : "b061a07e2b9c79182f751542d91d0159"
+    } ],
+    "uid" : "44063b3706d66b0d346705a4a77c6704"
+  }, {
+    "name" : "firefox",
+    "children" : [ {
+      "name" : "tests/example.spec.js",
+      "children" : [ {
+        "name" : "feature foo",
+        "children" : [ {
+          "name" : "my test",
+          "uid" : "dbac1122895bcd08",
+          "parentUid" : "884eacef5ff603ebbf73c4fd7c04f032",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449632388,
+            "stop" : 1638449635283,
+            "duration" : 2895
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test2",
+          "uid" : "c7cfe6fb89086cf7",
+          "parentUid" : "884eacef5ff603ebbf73c4fd7c04f032",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449635283,
+            "stop" : 1638449636198,
+            "duration" : 915
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test3",
+          "uid" : "c285be33abebb871",
+          "parentUid" : "884eacef5ff603ebbf73c4fd7c04f032",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638449636198,
+            "stop" : 1638449637074,
+            "duration" : 876
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "884eacef5ff603ebbf73c4fd7c04f032"
+      } ],
+      "uid" : "b2417c0a0e161427599d1fbbeadbab5a"
+    } ],
+    "uid" : "ed39c131db56604842b18253a0c76267"
+  }, {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests/example.spec.js",
+      "children" : [ {
+        "name" : "feature foo",
+        "children" : [ {
+          "name" : "my test",
+          "uid" : "747748c59554d890",
+          "parentUid" : "a7be246cc911b3f63abc5fd2c51632db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638450086146,
+            "stop" : 1638450088339,
+            "duration" : 2193
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test2",
+          "uid" : "46f2452f244f84b7",
+          "parentUid" : "a7be246cc911b3f63abc5fd2c51632db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638450088339,
+            "stop" : 1638450089409,
+            "duration" : 1070
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "my test3",
+          "uid" : "bea77799945497d1",
+          "parentUid" : "a7be246cc911b3f63abc5fd2c51632db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638450089410,
+            "stop" : 1638450090402,
+            "duration" : 992
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a7be246cc911b3f63abc5fd2c51632db"
+      } ],
+      "uid" : "2b527d6b4b4526059799629e9e397fdf"
+    }, {
+      "name" : "tests/login.spec.js",
+      "children" : [ {
+        "name" : "login feature",
+        "children" : [ {
+          "name" : "should login user successfully",
+          "uid" : "c6960562f60e03ac",
+          "parentUid" : "7d3b5508d70142114d605a0ad1f6975c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638453885896,
+            "stop" : 1638453891436,
+            "duration" : 5540
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should show error when logging-in with invalid credentials",
+          "uid" : "d7551b5faeda5312",
+          "parentUid" : "7d3b5508d70142114d605a0ad1f6975c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638453891437,
+            "stop" : 1638453893905,
+            "duration" : 2468
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d3b5508d70142114d605a0ad1f6975c"
+      } ],
+      "uid" : "96efdadda60b456977b2d08abb2bbc72"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}

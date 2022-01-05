@@ -1,0 +1,230 @@
+{
+  "firefox tests/example.spec.js feature foo my test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbac1122895bcd08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449632388,
+        "stop" : 1638449635283,
+        "duration" : 2895
+      }
+    } ]
+  },
+  "webkit tests/example.spec.js feature foo my test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b3fc392329fd1da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449632650,
+        "stop" : 1638449635152,
+        "duration" : 2502
+      }
+    } ]
+  },
+  "chromium tests/login.spec.js login feature should show error when logging-in with invalid credentials" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7551b5faeda5312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638453891437,
+        "stop" : 1638453893905,
+        "duration" : 2468
+      }
+    } ]
+  },
+  "chromium tests/example.spec.js feature foo my test3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bea77799945497d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638450089410,
+        "stop" : 1638450090402,
+        "duration" : 992
+      }
+    } ]
+  },
+  "chromium tests/example.spec.js feature foo my test2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46f2452f244f84b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638450088339,
+        "stop" : 1638450089409,
+        "duration" : 1070
+      }
+    } ]
+  },
+  "chromium tests/login.spec.js login feature should login user successfully" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6960562f60e03ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638453885896,
+        "stop" : 1638453891436,
+        "duration" : 5540
+      }
+    } ]
+  },
+  "firefox tests/example.spec.js feature foo my test2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7cfe6fb89086cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449635283,
+        "stop" : 1638449636198,
+        "duration" : 915
+      }
+    } ]
+  },
+  "firefox tests/example.spec.js feature foo my test3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c285be33abebb871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449636198,
+        "stop" : 1638449637074,
+        "duration" : 876
+      }
+    } ]
+  },
+  "webkit tests/example.spec.js feature foo my test2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "507825bed68e42e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449635152,
+        "stop" : 1638449636473,
+        "duration" : 1321
+      }
+    } ]
+  },
+  "webkit tests/example.spec.js feature foo my test3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32a3330a2b69a8e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638449636473,
+        "stop" : 1638449637257,
+        "duration" : 784
+      }
+    } ]
+  },
+  "chromium tests/example.spec.js feature foo my test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "747748c59554d890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638450086146,
+        "stop" : 1638450088339,
+        "duration" : 2193
+      }
+    } ]
+  },
+  "webkit tests/example.spec.js my test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b46032ce1c910a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637751239162,
+        "stop" : 1637751244774,
+        "duration" : 5612
+      }
+    } ]
+  }
+}

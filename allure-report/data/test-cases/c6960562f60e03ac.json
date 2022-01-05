@@ -1,0 +1,347 @@
+{
+  "uid" : "c6960562f60e03ac",
+  "name" : "should login user successfully",
+  "fullName" : "should login user successfully",
+  "historyId" : "chromium tests/login.spec.js login feature should login user successfully",
+  "time" : {
+    "start" : 1638453885896,
+    "stop" : 1638453891436,
+    "duration" : 5540
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638453885897,
+        "stop" : 1638453887380,
+        "duration" : 1483
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638453886493,
+          "stop" : 1638453887379,
+          "duration" : 886
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://stage.lokalise.com/)",
+      "time" : {
+        "start" : 1638453887381,
+        "stop" : 1638453888936,
+        "duration" : 1555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[placeholder=\"user@company.com\"])",
+      "time" : {
+        "start" : 1638453888937,
+        "stop" : 1638453888983,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[type=\"password\"])",
+      "time" : {
+        "start" : 1638453888984,
+        "stop" : 1638453889013,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(button:has-text(\"Log in\"))",
+      "time" : {
+        "start" : 1638453889013,
+        "stop" : 1638453889080,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638453889082,
+        "stop" : 1638453891127,
+        "duration" : 2045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638453891128,
+        "stop" : 1638453891263,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638453891264,
+        "stop" : 1638453891287,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveURL",
+      "time" : {
+        "start" : 1638453891288,
+        "stop" : 1638453891294,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638453891295,
+        "stop" : 1638453891436,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638453891295,
+          "stop" : 1638453891434,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6aa169661330178b",
+      "name" : "video",
+      "source" : "6aa169661330178b.webm",
+      "type" : "video/webm",
+      "size" : 78397
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/login.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "442b3e8c18ed3d96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638453803432,
+        "stop" : 1638453814564,
+        "duration" : 11132
+      }
+    }, {
+      "uid" : "2e78680556cce2a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638453569104,
+        "stop" : 1638453581538,
+        "duration" : 12434
+      }
+    }, {
+      "uid" : "8ebe9abbf22a3ea8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1638453504555,
+        "stop" : 1638453564667,
+        "duration" : 60112
+      }
+    }, {
+      "uid" : "ea8fcded68315cda",
+      "status" : "broken",
+      "time" : {
+        "start" : 1638453402601,
+        "stop" : 1638453462729,
+        "duration" : 60128
+      }
+    }, {
+      "uid" : "31348ccd74d43c7a",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"[data-name=\"project-sidebar\"] :has-text(\"Sample project\")\"\n",
+      "time" : {
+        "start" : 1638453297011,
+        "stop" : 1638453302357,
+        "duration" : 5346
+      }
+    }, {
+      "uid" : "6ad5f459283d40dc",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - \n",
+      "time" : {
+        "start" : 1638453162586,
+        "stop" : 1638453167327,
+        "duration" : 4741
+      }
+    }, {
+      "uid" : "327eccc644966daf",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - \n",
+      "time" : {
+        "start" : 1638453076832,
+        "stop" : 1638453082010,
+        "duration" : 5178
+      }
+    }, {
+      "uid" : "afbf74eb9d333b71",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"img[alt=\"Team logo\"]\"\n",
+      "time" : {
+        "start" : 1638452871315,
+        "stop" : 1638452876932,
+        "duration" : 5617
+      }
+    }, {
+      "uid" : "25f12470a1f8a118",
+      "status" : "failed",
+      "statusDetails" : "ß is not defined",
+      "time" : {
+        "start" : 1638452853868,
+        "stop" : 1638452857202,
+        "duration" : 3334
+      }
+    }, {
+      "uid" : "e32281870b365fa7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - \n",
+      "time" : {
+        "start" : 1638452627959,
+        "stop" : 1638452631678,
+        "duration" : 3719
+      }
+    }, {
+      "uid" : "6722c62e9520f0a2",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - \n",
+      "time" : {
+        "start" : 1638452481887,
+        "stop" : 1638452485543,
+        "duration" : 3656
+      }
+    }, {
+      "uid" : "f94db0cdaa0cb409",
+      "status" : "failed",
+      "statusDetails" : "toBeVisible can be only used with Locator object",
+      "time" : {
+        "start" : 1638452419953,
+        "stop" : 1638452425732,
+        "duration" : 5779
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6960562f60e03ac.json",
+  "parameterValues" : [ ]
+}

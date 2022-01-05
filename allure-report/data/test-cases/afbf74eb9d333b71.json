@@ -1,0 +1,200 @@
+{
+  "uid" : "afbf74eb9d333b71",
+  "name" : "should login user successfully",
+  "fullName" : "should login user successfully",
+  "historyId" : "chromium tests/login.spec.js login feature should login user successfully",
+  "time" : {
+    "start" : 1638452871315,
+    "stop" : 1638452876932,
+    "duration" : 5617
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"img[alt=\"Team logo\"]\"\n",
+  "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"img[alt=\"Team logo\"]\"\n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:15:56\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nexpect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"img[alt=\"Team logo\"]\"\n",
+    "statusTrace" : "Pending operations:\n  - expect.toBeVisible at tests/login.spec.js:15:56\n\nError: expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"img[alt=\"Team logo\"]\"\n\n    at /Users/olhatsumbek/Documents/Development/Training/tests/login.spec.js:15:56\n    at WorkerRunner._runTestWithBeforeHooks (/Users/olhatsumbek/Documents/Development/Training/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638452871315,
+        "stop" : 1638452872624,
+        "duration" : 1309
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638452871798,
+          "stop" : 1638452872623,
+          "duration" : 825
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://stage.lokalise.com/)",
+      "time" : {
+        "start" : 1638452872625,
+        "stop" : 1638452874145,
+        "duration" : 1520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[placeholder=\"user@company.com\"])",
+      "time" : {
+        "start" : 1638452874145,
+        "stop" : 1638452874189,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[type=\"password\"])",
+      "time" : {
+        "start" : 1638452874189,
+        "stop" : 1638452874213,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Log in)",
+      "time" : {
+        "start" : 1638452874214,
+        "stop" : 1638452874262,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638452874264,
+        "stop" : 1638452876332,
+        "duration" : 2068
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638452876319,
+        "stop" : 1638452876932,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638452876320,
+          "stop" : 1638452876930,
+          "duration" : 610
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8ba9af4bd94b89b7",
+      "name" : "video",
+      "source" : "8ba9af4bd94b89b7.webm",
+      "type" : "video/webm",
+      "size" : 53841
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/login.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afbf74eb9d333b71.json",
+  "parameterValues" : [ ]
+}
